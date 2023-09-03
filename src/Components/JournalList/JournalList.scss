@@ -1,0 +1,51 @@
+// JournalList.scss
+
+.journal-list {
+    padding: 20px;
+  
+    .loading {
+      font-size: 24px;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .error {
+      font-size: 24px;
+      color: red;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .user-card {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 10px 0;
+      padding: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+      .user-info {
+        display: flex;
+        flex-direction: column;
+  
+        .user-username {
+          font-weight: bold;
+        }
+  
+        .user-title {
+          margin-top: 5px;
+        }
+  
+        .user-age {
+          margin-top: 5px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
